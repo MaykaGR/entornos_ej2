@@ -22,7 +22,7 @@ fun imprimirCapasInf(edad: Int, numCapas: Int){
     }
 }
 fun imprimirMensaje(mensaje: String, edad: Int){
-    var num = (mensaje.chars().count().toInt())/2
+    var num = (edad-(mensaje.chars().count().toInt()))/2
     repeat(edad/8){
       print("''-._.-''")
     }
